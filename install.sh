@@ -292,7 +292,7 @@ nginx_conf_add(){
         ssl_ciphers           HIGH:!aNULL:!MD5;
         server_name           serveraddr.com;
         index index.html index.htm;
-        root  /home/wwwroot/sCalc;
+        root  /home/wwwroot/ChenmingPengPG.github.io;
         error_page 400 = /400.html;
         location /ray/ 
         {
